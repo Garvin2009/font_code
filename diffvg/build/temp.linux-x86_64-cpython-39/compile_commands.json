@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39",
+  "command": "/home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-c++ -DCOMPILE_WITH_CUDA -Ddiffvg_EXPORTS -I/home/cg/miniconda3/envs/fontclip/include/python3.9 -I/home/cg/FontCLIP/diffvg/pybind11/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cg/miniconda3/envs/fontclip/include -DVERSION_INFO=\\\"0.0.1\\\" -O3  -std=gnu++11 -fPIC -Wall -g -O3 -fvisibility=hidden -Wno-unknown-pragmas -o CMakeFiles/diffvg.dir/atomic.cpp.o -c /home/cg/FontCLIP/diffvg/atomic.cpp",
+  "file": "/home/cg/FontCLIP/diffvg/atomic.cpp",
+  "output": "CMakeFiles/diffvg.dir/atomic.cpp.o"
+},
+{
+  "directory": "/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39",
+  "command": "/home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-c++ -DCOMPILE_WITH_CUDA -Ddiffvg_EXPORTS -I/home/cg/miniconda3/envs/fontclip/include/python3.9 -I/home/cg/FontCLIP/diffvg/pybind11/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cg/miniconda3/envs/fontclip/include -DVERSION_INFO=\\\"0.0.1\\\" -O3  -std=gnu++11 -fPIC -Wall -g -O3 -fvisibility=hidden -Wno-unknown-pragmas -o CMakeFiles/diffvg.dir/color.cpp.o -c /home/cg/FontCLIP/diffvg/color.cpp",
+  "file": "/home/cg/FontCLIP/diffvg/color.cpp",
+  "output": "CMakeFiles/diffvg.dir/color.cpp.o"
+},
+{
+  "directory": "/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39",
+  "command": "/home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-c++ -DCOMPILE_WITH_CUDA -Ddiffvg_EXPORTS -I/home/cg/miniconda3/envs/fontclip/include/python3.9 -I/home/cg/FontCLIP/diffvg/pybind11/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cg/miniconda3/envs/fontclip/include -DVERSION_INFO=\\\"0.0.1\\\" -O3  -std=gnu++11 -fPIC -Wall -g -O3 -fvisibility=hidden -Wno-unknown-pragmas -o CMakeFiles/diffvg.dir/parallel.cpp.o -c /home/cg/FontCLIP/diffvg/parallel.cpp",
+  "file": "/home/cg/FontCLIP/diffvg/parallel.cpp",
+  "output": "CMakeFiles/diffvg.dir/parallel.cpp.o"
+},
+{
+  "directory": "/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39",
+  "command": "/home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-c++ -DCOMPILE_WITH_CUDA -Ddiffvg_EXPORTS -I/home/cg/miniconda3/envs/fontclip/include/python3.9 -I/home/cg/FontCLIP/diffvg/pybind11/include -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cg/miniconda3/envs/fontclip/include -DVERSION_INFO=\\\"0.0.1\\\" -O3  -std=gnu++11 -fPIC -Wall -g -O3 -fvisibility=hidden -Wno-unknown-pragmas -o CMakeFiles/diffvg.dir/shape.cpp.o -c /home/cg/FontCLIP/diffvg/shape.cpp",
+  "file": "/home/cg/FontCLIP/diffvg/shape.cpp",
+  "output": "CMakeFiles/diffvg.dir/shape.cpp.o"
+}
+]

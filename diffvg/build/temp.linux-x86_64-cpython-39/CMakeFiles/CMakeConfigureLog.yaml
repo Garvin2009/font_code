@@ -1,0 +1,652 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Linux - 6.6.87.2-microsoft-standard-WSL2 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-cc 
+      Build flags: -march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/cg/miniconda3/envs/fontclip/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/3.28.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-c++ 
+      Build flags: -fvisibility-inlines-hidden;-fmessage-length=0;-march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/cg/miniconda3/envs/fontclip/include;-DVERSION_INFO="0.0.1"
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-rCaMEf"
+      binary: "/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-rCaMEf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cg/miniconda3/envs/fontclip/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/cg/miniconda3/envs/fontclip/lib -Wl,-rpath-link,/home/cg/miniconda3/envs/fontclip/lib -L/home/cg/miniconda3/envs/fontclip/lib"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-rCaMEf'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8b761/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8b761.dir/build.make CMakeFiles/cmTC_8b761.dir/build
+        gmake[1]: Entering directory '/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-rCaMEf'
+        Building C object CMakeFiles/cmTC_8b761.dir/CMakeCCompilerABI.c.o
+        /home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cg/miniconda3/envs/fontclip/include    -v -o CMakeFiles/cmTC_8b761.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Reading specs from /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-cc
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++ --with-pkgversion='conda-forge gcc 11.4.0-13' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 11.4.0 (conda-forge gcc 11.4.0-13) 
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/cg/miniconda3/envs/fontclip/include' '-v' '-o' 'CMakeFiles/cmTC_8b761.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_8b761.dir/'
+         /home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/cc1 -quiet -v -iprefix /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/ -isysroot /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/cg/miniconda3/envs/fontclip/include /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8b761.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+         /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_8b761.dir/CMakeCCompilerABI.c.o
+        GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40
+        GNU C17 (conda-forge gcc 11.4.0-13) version 11.4.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/include"
+        ignoring duplicate directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include"
+        ignoring nonexistent directory "/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include-fixed"
+        ignoring nonexistent directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/cg/miniconda3/envs/fontclip/include
+         /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include
+         /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include-fixed
+         /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        GNU C17 (conda-forge gcc 11.4.0-13) version 11.4.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 45c9999e2ad87e1c830bdf7115b006ca
+        COMPILER_PATH=/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/:/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/cg/miniconda3/envs/fontclip/include' '-v' '-o' 'CMakeFiles/cmTC_8b761.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_8b761.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_8b761
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b761.dir/link.txt --verbose=1
+        /home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cg/miniconda3/envs/fontclip/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/cg/miniconda3/envs/fontclip/lib -Wl,-rpath-link,/home/cg/miniconda3/envs/fontclip/lib -L/home/cg/miniconda3/envs/fontclip/lib -v CMakeFiles/cmTC_8b761.dir/CMakeCCompilerABI.c.o -o cmTC_8b761 
+        Reading specs from /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-cc
+        COLLECT_LTO_WRAPPER=/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++ --with-pkgversion='conda-forge gcc 11.4.0-13' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 11.4.0 (conda-forge gcc 11.4.0-13) 
+        COMPILER_PATH=/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/:/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/cg/miniconda3/envs/fontclip/include' '-L/home/cg/miniconda3/envs/fontclip/lib' '-v' '-o' 'cmTC_8b761' '-dumpdir' 'cmTC_8b761.'
+         /home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/collect2 -plugin /home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/liblto_plugin.so -plugin-opt=/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNQLAmW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8b761 /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtbeginS.o -L/home/cg/miniconda3/envs/fontclip/lib -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0 -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../lib -L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../.. -L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/cg/miniconda3/envs/fontclip/lib -rpath-link /home/cg/miniconda3/envs/fontclip/lib CMakeFiles/cmTC_8b761.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtendS.o /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o -rpath /home/cg/miniconda3/envs/fontclip/lib
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/cg/miniconda3/envs/fontclip/include' '-L/home/cg/miniconda3/envs/fontclip/lib' '-v' '-o' 'cmTC_8b761' '-dumpdir' 'cmTC_8b761.'
+        gmake[1]: Leaving directory '/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-rCaMEf'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/cg/miniconda3/envs/fontclip/include]
+          add: [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include]
+          add: [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include-fixed]
+          add: [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/cg/miniconda3/envs/fontclip/include] ==> [/home/cg/miniconda3/envs/fontclip/include]
+        collapse include dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include] ==> [/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include]
+        collapse include dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include-fixed] ==> [/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include-fixed]
+        collapse include dir [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/cg/miniconda3/envs/fontclip/include;/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include;/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include-fixed;/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-rCaMEf']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8b761/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_8b761.dir/build.make CMakeFiles/cmTC_8b761.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-rCaMEf']
+        ignore line: [Building C object CMakeFiles/cmTC_8b761.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cg/miniconda3/envs/fontclip/include    -v -o CMakeFiles/cmTC_8b761.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Reading specs from /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-cc]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++ --with-pkgversion='conda-forge gcc 11.4.0-13' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 11.4.0 (conda-forge gcc 11.4.0-13) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/cg/miniconda3/envs/fontclip/include' '-v' '-o' 'CMakeFiles/cmTC_8b761.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_8b761.dir/']
+        ignore line: [ /home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/cc1 -quiet -v -iprefix /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/ -isysroot /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/cg/miniconda3/envs/fontclip/include /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8b761.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+        ignore line: [ /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_8b761.dir/CMakeCCompilerABI.c.o]
+        ignore line: [GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40]
+        ignore line: [GNU C17 (conda-forge gcc 11.4.0-13) version 11.4.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/cg/miniconda3/envs/fontclip/include]
+        ignore line: [ /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include]
+        ignore line: [ /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include-fixed]
+        ignore line: [ /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (conda-forge gcc 11.4.0-13) version 11.4.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 45c9999e2ad87e1c830bdf7115b006ca]
+        ignore line: [COMPILER_PATH=/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/:/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/cg/miniconda3/envs/fontclip/include' '-v' '-o' 'CMakeFiles/cmTC_8b761.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_8b761.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_8b761]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b761.dir/link.txt --verbose=1]
+        ignore line: [/home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cg/miniconda3/envs/fontclip/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /home/cg/miniconda3/envs/fontclip/lib -Wl -rpath-link /home/cg/miniconda3/envs/fontclip/lib -L/home/cg/miniconda3/envs/fontclip/lib -v CMakeFiles/cmTC_8b761.dir/CMakeCCompilerABI.c.o -o cmTC_8b761 ]
+        ignore line: [Reading specs from /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++ --with-pkgversion='conda-forge gcc 11.4.0-13' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 11.4.0 (conda-forge gcc 11.4.0-13) ]
+        ignore line: [COMPILER_PATH=/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/:/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/cg/miniconda3/envs/fontclip/include' '-L/home/cg/miniconda3/envs/fontclip/lib' '-v' '-o' 'cmTC_8b761' '-dumpdir' 'cmTC_8b761.']
+        link line: [ /home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/collect2 -plugin /home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/liblto_plugin.so -plugin-opt=/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNQLAmW.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8b761 /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtbeginS.o -L/home/cg/miniconda3/envs/fontclip/lib -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0 -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../lib -L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../.. -L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/cg/miniconda3/envs/fontclip/lib -rpath-link /home/cg/miniconda3/envs/fontclip/lib CMakeFiles/cmTC_8b761.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtendS.o /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o -rpath /home/cg/miniconda3/envs/fontclip/lib]
+          arg [/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccNQLAmW.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_8b761] ==> ignore
+          arg [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o] ==> obj [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o]
+          arg [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o] ==> obj [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o]
+          arg [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtbeginS.o] ==> obj [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtbeginS.o]
+          arg [-L/home/cg/miniconda3/envs/fontclip/lib] ==> dir [/home/cg/miniconda3/envs/fontclip/lib]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../lib] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../lib]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../..] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../..]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-O2] ==> ignore
+          arg [--sort-common] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [--disable-new-dtags] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [--allow-shlib-undefined] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/cg/miniconda3/envs/fontclip/lib] ==> ignore
+          arg [-rpath-link] ==> ignore
+          arg [/home/cg/miniconda3/envs/fontclip/lib] ==> ignore
+          arg [CMakeFiles/cmTC_8b761.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtendS.o] ==> obj [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtendS.o]
+          arg [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o] ==> obj [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/cg/miniconda3/envs/fontclip/lib] ==> ignore
+        collapse obj [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/lib/Scrt1.o]
+        collapse obj [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/lib/crti.o]
+        collapse obj [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtbeginS.o] ==> [/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtbeginS.o]
+        collapse obj [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtendS.o] ==> [/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtendS.o]
+        collapse obj [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/lib/crtn.o]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/lib] ==> [/home/cg/miniconda3/envs/fontclip/lib]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0] ==> [/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc] ==> [/home/cg/miniconda3/envs/fontclip/lib/gcc]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../lib] ==> [/home/cg/miniconda3/envs/fontclip/lib]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../..] ==> [/home/cg/miniconda3/envs/fontclip/lib]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/lib/Scrt1.o;/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/lib/crti.o;/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtbeginS.o;/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtendS.o;/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/lib/crtn.o]
+        implicit dirs: [/home/cg/miniconda3/envs/fontclip/lib;/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0;/home/cg/miniconda3/envs/fontclip/lib/gcc;/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/lib;/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/lib;/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-4Moa3U"
+      binary: "/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-4Moa3U"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cg/miniconda3/envs/fontclip/include -DVERSION_INFO=\\\"0.0.1\\\""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/cg/miniconda3/envs/fontclip/lib -Wl,-rpath-link,/home/cg/miniconda3/envs/fontclip/lib -L/home/cg/miniconda3/envs/fontclip/lib"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-4Moa3U'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9af03/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9af03.dir/build.make CMakeFiles/cmTC_9af03.dir/build
+        gmake[1]: Entering directory '/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-4Moa3U'
+        Building CXX object CMakeFiles/cmTC_9af03.dir/CMakeCXXCompilerABI.cpp.o
+        /home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cg/miniconda3/envs/fontclip/include -DVERSION_INFO=\\"0.0.1\\"    -v -o CMakeFiles/cmTC_9af03.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Reading specs from /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-c++
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++ --with-pkgversion='conda-forge gcc 11.4.0-13' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 11.4.0 (conda-forge gcc 11.4.0-13) 
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/cg/miniconda3/envs/fontclip/include' '-D' 'VERSION_INFO="0.0.1"' '-v' '-o' 'CMakeFiles/cmTC_9af03.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_9af03.dir/'
+         /home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/cc1plus -quiet -v -iprefix /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/ -isysroot /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -D VERSION_INFO="0.0.1" -isystem /home/cg/miniconda3/envs/fontclip/include /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9af03.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+         /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_9af03.dir/CMakeCXXCompilerABI.cpp.o
+        GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40
+        GNU C++17 (conda-forge gcc 11.4.0-13) version 11.4.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/include"
+        ignoring duplicate directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++"
+        ignoring duplicate directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++/x86_64-conda-linux-gnu"
+        ignoring duplicate directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++/backward"
+        ignoring duplicate directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include"
+        ignoring nonexistent directory "/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include-fixed"
+        ignoring nonexistent directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/cg/miniconda3/envs/fontclip/include
+         /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++
+         /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++/x86_64-conda-linux-gnu
+         /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++/backward
+         /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include
+         /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include-fixed
+         /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        GNU C++17 (conda-forge gcc 11.4.0-13) version 11.4.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: b752247fe42c4276663fdd6348116302
+        COMPILER_PATH=/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/:/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/cg/miniconda3/envs/fontclip/include' '-D' 'VERSION_INFO="0.0.1"' '-v' '-o' 'CMakeFiles/cmTC_9af03.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_9af03.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_9af03
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9af03.dir/link.txt --verbose=1
+        /home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cg/miniconda3/envs/fontclip/include -DVERSION_INFO=\\"0.0.1\\"  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/cg/miniconda3/envs/fontclip/lib -Wl,-rpath-link,/home/cg/miniconda3/envs/fontclip/lib -L/home/cg/miniconda3/envs/fontclip/lib -v CMakeFiles/cmTC_9af03.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9af03 
+        Reading specs from /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-c++
+        COLLECT_LTO_WRAPPER=/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++ --with-pkgversion='conda-forge gcc 11.4.0-13' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 11.4.0 (conda-forge gcc 11.4.0-13) 
+        COMPILER_PATH=/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/:/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/cg/miniconda3/envs/fontclip/include' '-D' 'VERSION_INFO="0.0.1"' '-L/home/cg/miniconda3/envs/fontclip/lib' '-v' '-o' 'cmTC_9af03' '-shared-libgcc' '-dumpdir' 'cmTC_9af03.'
+         /home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/collect2 -plugin /home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/liblto_plugin.so -plugin-opt=/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTpANLp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9af03 /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtbeginS.o -L/home/cg/miniconda3/envs/fontclip/lib -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0 -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../lib -L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../.. -L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/cg/miniconda3/envs/fontclip/lib -rpath-link /home/cg/miniconda3/envs/fontclip/lib CMakeFiles/cmTC_9af03.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtendS.o /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o -rpath /home/cg/miniconda3/envs/fontclip/lib
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/cg/miniconda3/envs/fontclip/include' '-D' 'VERSION_INFO="0.0.1"' '-L/home/cg/miniconda3/envs/fontclip/lib' '-v' '-o' 'cmTC_9af03' '-shared-libgcc' '-dumpdir' 'cmTC_9af03.'
+        gmake[1]: Leaving directory '/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-4Moa3U'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/cg/miniconda3/envs/fontclip/include]
+          add: [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++]
+          add: [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++/x86_64-conda-linux-gnu]
+          add: [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++/backward]
+          add: [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include]
+          add: [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include-fixed]
+          add: [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/cg/miniconda3/envs/fontclip/include] ==> [/home/cg/miniconda3/envs/fontclip/include]
+        collapse include dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++] ==> [/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++]
+        collapse include dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++/x86_64-conda-linux-gnu] ==> [/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++/x86_64-conda-linux-gnu]
+        collapse include dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++/backward] ==> [/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++/backward]
+        collapse include dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include] ==> [/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include]
+        collapse include dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include-fixed] ==> [/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include-fixed]
+        collapse include dir [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/cg/miniconda3/envs/fontclip/include;/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++;/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++/x86_64-conda-linux-gnu;/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++/backward;/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include;/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include-fixed;/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-4Moa3U']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9af03/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_9af03.dir/build.make CMakeFiles/cmTC_9af03.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-4Moa3U']
+        ignore line: [Building CXX object CMakeFiles/cmTC_9af03.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cg/miniconda3/envs/fontclip/include -DVERSION_INFO=\\"0.0.1\\"    -v -o CMakeFiles/cmTC_9af03.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Reading specs from /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-c++]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++ --with-pkgversion='conda-forge gcc 11.4.0-13' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 11.4.0 (conda-forge gcc 11.4.0-13) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/cg/miniconda3/envs/fontclip/include' '-D' 'VERSION_INFO="0.0.1"' '-v' '-o' 'CMakeFiles/cmTC_9af03.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_9af03.dir/']
+        ignore line: [ /home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/cc1plus -quiet -v -iprefix /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/ -isysroot /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -D VERSION_INFO="0.0.1" -isystem /home/cg/miniconda3/envs/fontclip/include /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9af03.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+        ignore line: [ /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_9af03.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40]
+        ignore line: [GNU C++17 (conda-forge gcc 11.4.0-13) version 11.4.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++"]
+        ignore line: [ignoring duplicate directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++/x86_64-conda-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/cg/miniconda3/envs/fontclip/include]
+        ignore line: [ /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++]
+        ignore line: [ /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++/x86_64-conda-linux-gnu]
+        ignore line: [ /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++/backward]
+        ignore line: [ /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include]
+        ignore line: [ /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/include-fixed]
+        ignore line: [ /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (conda-forge gcc 11.4.0-13) version 11.4.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.1.0  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.18-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: b752247fe42c4276663fdd6348116302]
+        ignore line: [COMPILER_PATH=/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/:/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/cg/miniconda3/envs/fontclip/include' '-D' 'VERSION_INFO="0.0.1"' '-v' '-o' 'CMakeFiles/cmTC_9af03.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_9af03.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_9af03]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9af03.dir/link.txt --verbose=1]
+        ignore line: [/home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cg/miniconda3/envs/fontclip/include -DVERSION_INFO=\\"0.0.1\\"  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /home/cg/miniconda3/envs/fontclip/lib -Wl -rpath-link /home/cg/miniconda3/envs/fontclip/lib -L/home/cg/miniconda3/envs/fontclip/lib -v CMakeFiles/cmTC_9af03.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9af03 ]
+        ignore line: [Reading specs from /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176526088/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++ --with-pkgversion='conda-forge gcc 11.4.0-13' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 11.4.0 (conda-forge gcc 11.4.0-13) ]
+        ignore line: [COMPILER_PATH=/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/:/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/cg/miniconda3/envs/fontclip/include' '-D' 'VERSION_INFO="0.0.1"' '-L/home/cg/miniconda3/envs/fontclip/lib' '-v' '-o' 'cmTC_9af03' '-shared-libgcc' '-dumpdir' 'cmTC_9af03.']
+        link line: [ /home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/collect2 -plugin /home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/liblto_plugin.so -plugin-opt=/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTpANLp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9af03 /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtbeginS.o -L/home/cg/miniconda3/envs/fontclip/lib -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0 -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../lib -L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../.. -L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/cg/miniconda3/envs/fontclip/lib -rpath-link /home/cg/miniconda3/envs/fontclip/lib CMakeFiles/cmTC_9af03.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtendS.o /home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o -rpath /home/cg/miniconda3/envs/fontclip/lib]
+          arg [/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/cg/miniconda3/envs/fontclip/bin/../libexec/gcc/x86_64-conda-linux-gnu/11.4.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccTpANLp.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_9af03] ==> ignore
+          arg [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o] ==> obj [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o]
+          arg [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o] ==> obj [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o]
+          arg [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtbeginS.o] ==> obj [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtbeginS.o]
+          arg [-L/home/cg/miniconda3/envs/fontclip/lib] ==> dir [/home/cg/miniconda3/envs/fontclip/lib]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../lib] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../lib]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../..] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../..]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-O2] ==> ignore
+          arg [--sort-common] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [--disable-new-dtags] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [--allow-shlib-undefined] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/cg/miniconda3/envs/fontclip/lib] ==> ignore
+          arg [-rpath-link] ==> ignore
+          arg [/home/cg/miniconda3/envs/fontclip/lib] ==> ignore
+          arg [CMakeFiles/cmTC_9af03.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtendS.o] ==> obj [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtendS.o]
+          arg [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o] ==> obj [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/cg/miniconda3/envs/fontclip/lib] ==> ignore
+        collapse obj [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/Scrt1.o] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/lib/Scrt1.o]
+        collapse obj [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crti.o] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/lib/crti.o]
+        collapse obj [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtbeginS.o] ==> [/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtbeginS.o]
+        collapse obj [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtendS.o] ==> [/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtendS.o]
+        collapse obj [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/crtn.o] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/lib/crtn.o]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/lib] ==> [/home/cg/miniconda3/envs/fontclip/lib]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0] ==> [/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc] ==> [/home/cg/miniconda3/envs/fontclip/lib/gcc]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../lib] ==> [/home/cg/miniconda3/envs/fontclip/lib]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../lib/gcc/x86_64-conda-linux-gnu/11.4.0/../../..] ==> [/home/cg/miniconda3/envs/fontclip/lib]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/cg/miniconda3/envs/fontclip/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/lib/Scrt1.o;/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/lib/crti.o;/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtbeginS.o;/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0/crtendS.o;/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/lib/crtn.o]
+        implicit dirs: [/home/cg/miniconda3/envs/fontclip/lib;/home/cg/miniconda3/envs/fontclip/lib/gcc/x86_64-conda-linux-gnu/11.4.0;/home/cg/miniconda3/envs/fontclip/lib/gcc;/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/lib;/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/lib;/home/cg/miniconda3/envs/fontclip/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "pybind11/tools/pybind11Common.cmake:194 (check_cxx_compiler_flag)"
+      - "pybind11/tools/pybind11Common.cmake:223 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "pybind11/tools/pybind11Common.cmake:277 (_pybind11_generate_lto)"
+      - "pybind11/CMakeLists.txt:162 (include)"
+    checks:
+      - "Performing Test HAS_FLTO"
+    directories:
+      source: "/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-u5tg4L"
+      binary: "/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-u5tg4L"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cg/miniconda3/envs/fontclip/include -DVERSION_INFO=\\\"0.0.1\\\""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/cg/miniconda3/envs/fontclip/lib -Wl,-rpath-link,/home/cg/miniconda3/envs/fontclip/lib -L/home/cg/miniconda3/envs/fontclip/lib"
+      CMAKE_MODULE_PATH: "/home/cg/FontCLIP/diffvg/cmake/"
+    buildResult:
+      variable: "HAS_FLTO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-u5tg4L'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1a438/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1a438.dir/build.make CMakeFiles/cmTC_1a438.dir/build
+        gmake[1]: Entering directory '/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-u5tg4L'
+        Building CXX object CMakeFiles/cmTC_1a438.dir/src.cxx.o
+        /home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-c++ -DHAS_FLTO  -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cg/miniconda3/envs/fontclip/include -DVERSION_INFO=\\"0.0.1\\"    -flto -fno-fat-lto-objects -o CMakeFiles/cmTC_1a438.dir/src.cxx.o -c /home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-u5tg4L/src.cxx
+        Linking CXX executable cmTC_1a438
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a438.dir/link.txt --verbose=1
+        /home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/cg/miniconda3/envs/fontclip/include -DVERSION_INFO=\\"0.0.1\\"  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/cg/miniconda3/envs/fontclip/lib -Wl,-rpath-link,/home/cg/miniconda3/envs/fontclip/lib -L/home/cg/miniconda3/envs/fontclip/lib  CMakeFiles/cmTC_1a438.dir/src.cxx.o -o cmTC_1a438  -flto 
+        gmake[1]: Leaving directory '/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-u5tg4L'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/share/cmake-3.28/Modules/FindCUDA.cmake:1071 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-EdOf1Y"
+      binary: "/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-EdOf1Y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fPIC"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/cg/miniconda3/envs/fontclip/lib -Wl,-rpath-link,/home/cg/miniconda3/envs/fontclip/lib -L/home/cg/miniconda3/envs/fontclip/lib"
+      CMAKE_MODULE_PATH: "/home/cg/FontCLIP/diffvg/cmake/"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-EdOf1Y'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2a409/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2a409.dir/build.make CMakeFiles/cmTC_2a409.dir/build
+        gmake[1]: Entering directory '/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-EdOf1Y'
+        Building C object CMakeFiles/cmTC_2a409.dir/src.c.o
+        /home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIC  -o CMakeFiles/cmTC_2a409.dir/src.c.o -c /home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-EdOf1Y/src.c
+        Linking C executable cmTC_2a409
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a409.dir/link.txt --verbose=1
+        /home/cg/miniconda3/envs/fontclip/bin/x86_64-conda-linux-gnu-cc -fPIC  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/cg/miniconda3/envs/fontclip/lib -Wl,-rpath-link,/home/cg/miniconda3/envs/fontclip/lib -L/home/cg/miniconda3/envs/fontclip/lib  CMakeFiles/cmTC_2a409.dir/src.c.o -o cmTC_2a409 
+        gmake[1]: Leaving directory '/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/CMakeScratch/TryCompile-EdOf1Y'
+        
+      exitCode: 0
+...

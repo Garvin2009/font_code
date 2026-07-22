@@ -1,0 +1,5 @@
+/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/diffvg.dir
+/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/edit_cache.dir
+/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/CMakeFiles/rebuild_cache.dir
+/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/pybind11/CMakeFiles/edit_cache.dir
+/home/cg/FontCLIP/diffvg/build/temp.linux-x86_64-cpython-39/pybind11/CMakeFiles/rebuild_cache.dir
