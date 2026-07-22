@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: diffvg
+Version: 0.0.1
+Summary: Differentiable Vector Graphics
+License-File: LICENSE
+Requires-Dist: svgpathtools
