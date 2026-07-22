@@ -2,7 +2,7 @@
 # Vision-Language Models for Handwriting Glyph Vector Graphics Editing
 <br>
 <div align="center">
-    <img src="media" width="100%">
+    <img src="media/thin_comparison.png" width="100%">
 </div>
 <br><br>
 
@@ -51,7 +51,7 @@ Based on our extended framework, we focus on the following application tailored 
 ### Vector optimization
 <br>
 <div align="center">
-    <img src="media/FontCLIP_pipe.pdf" width="100%">
+    <img src="media/Fontclip流程圖.svg" width="100%">
 </div>
 <br><br>
 
