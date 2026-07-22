@@ -8,7 +8,30 @@
 
 
 ## Abstract
-
+Prompt-driven font editing is an emerging application of vision-language mod-
+els in graphics. The recent FontCLIP couples cross-modal semantic alignment
+with differentiable rasterization to optimize a glyph’s Bézier control points at in-
+ference time, editing it into attribute-specific styles such as thin or bold from a
+prompt. Such methods, however, have been validated mainly on Latin computer
+typefaces; Chinese characters appear only as a single illustrative glyph, with neither
+systematic treatment nor quantitative evaluation, leaving Chinese handwriting edit-
+ing—structurally more complex and carrying personal style—unexplored. Using
+FontCLIP as its base framework, this study presents a systematic evaluation and
+optimization of VLM-based Chinese handwriting editing. Twenty representative
+characters were optimized on a handwriting font against a thin computer typeface
+under three prompts for 120 trials, with a systematic loss-weight search yielding a
+reproducible hyperparameter configuration. To address the original method’s lack
+of quantitative evaluation, we adopt the direction cosine, a metric aligned with Font-
+CLIP’s training direction loss, to measure how well a glyph’s movement in seman-
+tic space aligns with the target direction. Across all combinations, glyphs consis-
+tently moved toward the intended direction: thin and bold were stable, whereas
+the more abstract relaxed prompt was markedly weaker, reflecting a cross-cultural
+gap in FontCLIP’s Western-dominated training data. Closed contours, rather than
+stroke count alone, were the key factor limiting quality—open-contour characters
+deformed stably while closed-contour ones collapsed under thin optimization—and
+semantic alignment and visual legibility proved to be two independent dimensions.
+Overall, the adopted metric, the hyperparameter configuration established here, and
+the ability-boundary analysis fill this gap for Chinese handwriting editing.
 
 ## Approach
 Our work builds upon **FontCLIP** by extending its capabilities to **handwritten fonts**. 
@@ -28,7 +51,7 @@ Based on our extended framework, we focus on the following application tailored 
 ### Vector optimization
 <br>
 <div align="center">
-    <img src="media/" width="100%">
+    <img src="media/FontCLIP_pip" width="100%">
 </div>
 <br><br>
 
